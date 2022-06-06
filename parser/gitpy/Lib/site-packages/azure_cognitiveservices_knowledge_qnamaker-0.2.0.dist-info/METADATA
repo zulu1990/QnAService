@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: azure-cognitiveservices-knowledge-qnamaker
+Version: 0.2.0
+Summary: Microsoft Azure QnA Maker Client Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: msrest (>=0.5.0)
+Requires-Dist: azure-common (~=1.1)
+Requires-Dist: azure-cognitiveservices-knowledge-nspkg ; python_version<'3.0'
+
+# Microsoft Azure SDK for Python
+
+This is the Microsoft Azure QnA Maker Client Library.
+This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8.
+For a more complete view of Azure libraries, see the [Github repo](https://github.com/Azure/azure-sdk-for-python/)
+
+
+# Usage
+
+For code examples, see [QnA Maker](https://docs.microsoft.com/python/api/overview/azure/cognitive-services)
+on docs.microsoft.com.
+
+
+# Provide Feedback
+
+If you encounter any bugs or have suggestions, please file an issue in the
+[Issues](https://github.com/Azure/azure-sdk-for-python/issues)
+section of the project.
+
+
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fazure-cognitiveservices-knowledge-qnamaker%2FREADME.png)
+
+
+# Release History
+
+## 0.2.0 (2020-03-17)
+
+**Features**
+
+- New client `QnAMakerRuntimeClient` in `azure.cognitiveservices.knowledge.qnamaker.runtime`
+
+**Breaking changes**
+
+- The `QnAMakerClient` client moved from namespace `azure.cognitiveservices.knowledge.qnamaker` to `azure.cognitiveservices.knowledge.qnamaker.authoring`
+
+## 0.1.0 (2018-12-21)
+
+* Initial Release
+
